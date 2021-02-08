@@ -19,7 +19,7 @@ body{
 
 h2{
 	text-align: center;
-	margin: 20px 0px;
+	margin: 50px 0px 30px 0px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
@@ -63,22 +63,71 @@ button{
 	margin: 16px 10px;
 }
 
-/***************** Images *****************/
-
 .banner{
 	text-align: center;
 	display: table-cell; 
 	vertical-align: middle;
-	padding-top: 140px;
-	padding-bottom: 25px;
 }
 
 .banner img{
 	width: 100%;
 }
 
+/***************** Leaders *****************/
+
+#leaders{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.leaders-card{
+	margin-left: 45px;
+	margin-bottom: 20px;
+}
+
+.leaders-card img{
+	width: 180px; 
+	height: 180px; 
+	border-radius: 100%;
+	margin-bottom: 8px;;
+}
+
+.leaders-card p{
+	text-align: center;
+	width: 170px;
+}
+
+/**************** Documents ****************/
+
+.documents{
+	text-align: center;
+}
+
+/**************** Contact ****************/
+
+#contact-content{
+	text-align: center;
+	width: min(80vw, 800px);
+    margin: auto;
+}
+
+#contact-text{
+	display: inline-block; 
+	text-align: left;
+}
+
+.icon{
+	margin-right: 5px;
+}
+
+/***************** Images *****************/
+
+.images{ 
+	margin-top: 90px;
+}
+
 #lourdes{
-	margin: 30px 10px;
+	margin-bottom: 50px;
 	width: 380px; 
 	height: 380px;
 	border-radius: 5%;
@@ -99,7 +148,7 @@ button{
 	text-align: left;
 	position: relative;
 	padding: 45px 110px;
-	margin-top: 30px;
+	margin-top: 50px;
 }
   
 .footer-distributed .footer-left p {
@@ -171,18 +220,29 @@ button{
 		font-size: 87.5%;
 	}
 
-	.transparencia{
-		margin-right: 100px; 
-		margin-left: 100px;
-	}
-
-	.banner img{
-		margin-top: -90px;
+	.images{ 
+		margin-top: 40px;
 	}
 
 	#lourdes{
+		margin: 0 120px 0 120px;
 		width: 200px; 
 		height: 200px;
+	}
+
+	#ana_lourdes{
+		margin: 35px 65px 0 65px;
+		width: 340px; 
+		height: 170px;
+	}
+
+	.leaders-card img{
+		width: 160px; 
+		height: 160px; 
+	}
+
+	.leaders-card p{
+		width: 150px;
 	}
 
 	.footer-distributed .footer-left, .footer-distributed .footer-right {
@@ -204,20 +264,33 @@ button{
 	}
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 	html{
 		font-size: 93.75%;
 	}
 
+	.images{ 
+		margin-top: 40px;
+	}
+
 	#lourdes{
+		margin-right: 35px;
 		width: 280px; 
 		height: 280px;
 	}
+
+	#ana_lourdes{
+		margin-bottom: 45px;
+	}
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
 	h1{
 		font-size: 80px;
+	}
+
+	.images{ 
+		margin-top: 200px;
 	}
 
 	#lourdes{
@@ -234,17 +307,5 @@ button{
 @media screen and (min-width: 1200px){
 	h1{
 		font-size: 100px;
-	}
-
-	#lourdes{
-		margin: 30px 10px;
-		width: 380px; 
-		height: 380px;
-		border-radius: 5%;
-	}
-	
-	#ana_lourdes{
-		width: 400px; 
-		height: 200px;
 	}
 }
