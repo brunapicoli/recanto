@@ -362,6 +362,13 @@ a{
 		height: 170px;
 	}
 
+	.animal figcaption{
+		font-size: 15px
+	}
+	.animal figcaption h1 {
+		font-size: 24px;
+	}
+
 	.leaders-card img{
 		width: 160px; 
 		height: 160px; 
