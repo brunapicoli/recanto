@@ -22,7 +22,7 @@
   <body>
 
     <header>
-      <nav class="nav navbar-inverse navbar-transparente" id="navbar">
+      <nav class="nav navbar-inverse navbar-transparente navbar-fixed-top" id="navbar">
         <div class="container">
 
           <div class="navbar-header">
@@ -32,20 +32,22 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a href="index.html"> <img src="images/logo.png" id="logo"> </a>
           </div>
 
           <div class="collapse navbar-collapse" id="navigation-bar">
-
-            <ul class="nav navbar-nav navbar-left">
-              <li> <a href="index.html"> <img src="images/logo.png" id="logo"> </a> </li>
-            </ul>
-
             <ul class="nav navbar-nav navbar-right" id="menu">
-              <li> <a href="who-we-are.html"><b>Quem somos</b></a> </li>
-              <li> <a href="transparency.html"><b>Transparência</b></a> </li>
+              <li><a href="#">Adoção<i class="glyphicon glyphicon-chevron-down"></i></a>
+                <ul>
+                  <li><a href="./dogs.html">Cães</a></li>
+                  <li><a href="./cats.html">Gatos</a></li>
+                </ul>
+              </li>
+              <li><a href="who-we-are.html">Quem somos</a></li>
+              <li><a href="transparency.html">Transparência</a></li>
               <li class="divisor" role="separator"></li>
-              <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLScpT925bG4ssxJRwf6R5jprubhn_GIBr1_A7-kIjOHG9hml-w/viewform" target="_blank"><b>Como ajudar</b></a> </li>
-              <li> <a href="contact.html"><b>Contato</b></a> </li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScpT925bG4ssxJRwf6R5jprubhn_GIBr1_A7-kIjOHG9hml-w/viewform" target="_blank">Como ajudar</a> </li>
+              <li><a href="contact.html">Contato</a></li>
             </ul>
           </div>
         </div>     
@@ -54,7 +56,7 @@
 
     <section>
       <div class="container">
-        <h2>Dirigentes</h2>
+        <h2 id="title">Dirigentes</h2>
 
           <div id="leaders">
 
@@ -173,16 +175,9 @@
 			</div>
 
 			<div class="footer-left">
-				<p class="footer-links">
-					<a class="link-1" href="index.html">Página inicial</a>
-					<a href="who-we-are.html">Quem somos</a>
-					<a href="transparency.html">Transparência</a>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLScpT925bG4ssxJRwf6R5jprubhn_GIBr1_A7-kIjOHG9hml-w/viewform" target="_blank">Como ajudar</a>
-					<a href="contact.html">Contato</a>
-				</p>
         <p>
-				<img src="https://img.icons8.com/material/24/000000/worldwide-location--v1.png"/>
-          Rodovia SP-342, S/N, 
+				<i class="glyphicon glyphicon-map-marker"></i>
+          Rodovia SP-342, Km 198, Bairro Concrelix,
           Espírito Santo do Pinhal - SP
         </p>
 			</div>
