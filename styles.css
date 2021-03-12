@@ -12,11 +12,16 @@ body{
 	overflow-x: hidden; 
 }
 
-h2{
+h1{
 	text-align: center;
 	margin: 50px 0px 30px 0px;
+	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
+}
+
+p {
+	text-align: justify;
 }
 
 #title {
@@ -101,10 +106,13 @@ i.glyphicon-chevron-down {
 
 /***************** Animals *****************/
 
-#phrase {
-	text-align: center;
+#phrase{
 	margin-top: 200px;
 	margin-bottom: 40px;
+}
+
+#phrase p{
+	text-align: center;
 }
 
 .animals {
@@ -275,7 +283,7 @@ a{
 /***************** Images *****************/
 
 .images{ 
-	margin-top: 90px;
+	margin-top: 115px;
 }
 
 #lourdes{
@@ -380,7 +388,7 @@ a{
 	}
 
 	#email{
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	.footer-distributed .footer-left, .footer-distributed .footer-right {
