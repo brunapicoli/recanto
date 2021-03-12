@@ -259,6 +259,7 @@ a{
 
 .icon{
 	margin-right: 5px;
+	font-size: 13px;
 }
 
 #email{
@@ -376,6 +377,10 @@ a{
 
 	.leaders-card p{
 		width: 150px;
+	}
+
+	#email{
+		font-size: 15px;
 	}
 
 	.footer-distributed .footer-left, .footer-distributed .footer-right {
