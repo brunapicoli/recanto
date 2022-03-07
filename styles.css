@@ -151,7 +151,7 @@ i.glyphicon-chevron-down {
   top: 0px;
   background-color: rgba(0,0,0,0.7);
   color: white;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: justify;
   height: 392px;
 	width: 290px;
@@ -170,7 +170,7 @@ i.glyphicon-chevron-down {
 .animal figcaption h1 {
 	text-align: center;
 	margin-top: 0px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .animal figcaption .infos {
